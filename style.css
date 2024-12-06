@@ -1,0 +1,103 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+nav{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 20px;
+    gap:69px;
+    background-color:black;
+    color: white;
+}
+
+.menu-div{
+    display:flex;
+    align-items: center;
+    padding:10px;
+    gap: 5px;
+}
+
+#menu-aparelhos{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items:center ;
+    flex-direction: column;
+    gap:30px;
+    background-color: rgb(255, 255, 255);
+}
+
+.container-btv{
+   width: 90%;
+   height: 46vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  border-radius: 20px;
+
+}
+
+.container-btv img{
+    width: 95%; 
+    height: auto;
+    border-radius:15px;
+    max-width: 95%;
+   
+    
+    
+}
+
+.container-btv button{
+    width:90%;
+    height: 5vh;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+
+.container-btv-stick{
+    width: 90%;
+    height: 46vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background-color: black;
+   border-radius: 20px;
+ 
+ }
+ 
+ .container-btv-stick img{
+     width: 95%; 
+     height: auto;
+     border-radius:15px;
+     max-width: 95%;
+    
+     
+     
+ }
+ 
+ .container-btv-stick button{
+     width:90%;
+     height: 5vh;
+     background-color: black;
+     border: 1px solid black;
+     color: white;
+     text-align: center;
+     font-size: 22px;
+ }
